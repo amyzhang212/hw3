@@ -35,7 +35,7 @@ passenger2Name = ride[1].passengerDetails.first  + " " + ride[1].passengerDetail
 passenger2Phone = ride[1].passengerDetails.phoneNumber
 passenger2NumberOfPassengers = ride[1].numberOfPassengers
 passenger2PickupAddressLine1 = ride[1].pickupLocation.address
-passenger2PickupAddressLine2 = ride[1].pickupLocation.address.city  + "," + ride[1].pickupLocation.state  + " " + ride[1].pickupLocation.zip
+passenger2PickupAddressLine2 = ride[1].pickupLocation.city  + "," + ride[1].pickupLocation.state  + " " + ride[1].pickupLocation.zip
 passenger2DropoffAddressLine1 = ride[1].dropoffLocation.address
 passenger2DropoffAddressLine2 = ride[1].dropoffLocation.city  + "," + ride[1].dropoffLocation.state  + " " + ride[1].dropoffLocation.zip
 } else if (ride.length>2) {
