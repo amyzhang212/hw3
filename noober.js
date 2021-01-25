@@ -16,7 +16,7 @@ function pageLoad() {
 
 if (ride.length>1) {levelOfService = 'Noober Pool'
 } else if (ride[0].purpleRequested == true) {levelOfService = 'Noober Purple'
-} else if (ride[0].numberOfPassenger>3) {levelOfService = 'Noober XL'
+} else if (ride[0].numberOfPassengers > 3) {levelOfService = 'Noober XL'
 } else {levelOfService = 'Noober X'}
 
 console.log(levelOfService)
